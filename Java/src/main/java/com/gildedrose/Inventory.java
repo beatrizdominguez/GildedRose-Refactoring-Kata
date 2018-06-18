@@ -1,8 +1,8 @@
 package com.gildedrose;
 
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 
-public class Inventory extends LinkedHashMap<String, String> {
+public class Inventory extends HashMap<String, String> {
 
 	public Inventory() {
 		this.put("Aged Brie", "InverseItem");
