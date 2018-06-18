@@ -2,6 +2,7 @@ package com.gildedrose;
 
 public class InverseItem extends Item implements IItem {
 
+	public final static String TYPE_NAME = "InverseItem";
 	public final static int DECREASE_VALUE = +1;
 
 	public InverseItem(String name, int sellIn, int quality) {

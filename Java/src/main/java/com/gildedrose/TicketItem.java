@@ -1,6 +1,8 @@
 package com.gildedrose;
 
 public class TicketItem extends Item implements IItem {
+	
+	public final static String TYPE_NAME = "TicketItem";
 
 	public final static int DECREASE_VALUE = +1;
 	public final static int SELL_IN_1 = 10;

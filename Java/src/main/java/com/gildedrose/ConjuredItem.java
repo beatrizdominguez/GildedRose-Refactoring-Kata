@@ -2,6 +2,8 @@ package com.gildedrose;
 
 public class ConjuredItem extends Item implements IItem {
 
+	public final static String TYPE_NAME = "ConjuredItem";
+	
 	public final static int DECREASE_VALUE = -1;
 
 	public ConjuredItem(String name, int sellIn, int quality) {

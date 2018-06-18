@@ -1,6 +1,8 @@
 package com.gildedrose;
 
 public class LegendaryItem extends Item implements IItem {
+	
+	public final static String TYPE_NAME = "LegendaryItem";
 
 	public final static int QUALITY_VALUE = 80;
 
